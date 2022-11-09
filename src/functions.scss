@@ -21,13 +21,13 @@
   @while str-index($s, '.') {
     $r: map-get($r, str-slice($s, 0, str-index($s, '.') - 1));
     @if not $r {
-      @error "Property #{$id} not found in ClearVision #{$p} set";
+      @error "Property #{$id} not found in Wolf #{$p} set";
     }
     $s: str-slice($s, str-index($s, '.') + 1);
   }
   $r: map-get($r, $s);
   @if not $r {
-    @error "Property #{$id} not found in ClearVision #{$p} set";
+    @error "Property #{$id} not found in Wolf #{$p} set";
   }
   @return $r;
 }
