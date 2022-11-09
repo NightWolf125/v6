@@ -1,8 +1,8 @@
 {
-  "name": "ClearVision",
+  "name": "Wolf",
   "description": "A highly customizable theme for BetterDiscord and Powercord.",
-  "version": "6.3.0",
-  "author": "Zerthox#1999",
+  "version": "6.0.0",
+  "author": "Night Wolf#5100",
   "theme": "ClearVision_v6.theme.css",
   "license": "Apache-2.0"
 }
